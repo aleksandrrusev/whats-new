@@ -8,6 +8,29 @@
   background-repeat: no-repeat;
 }
 
+.head .go-back {
+  padding: 50px 100px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+.head .go-back a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+}
+
+.head .go-back a:hover {
+  color: white;
+}
+
+.head .tb-logo {
+  background: url("../img/tb-logo.png");
+  background-size: cover;
+  width: 242px;
+  height: 48px;
+  margin-top: 40px;
+}
+
 .head .round-img {
   position: absolute;
   bottom: 0;
@@ -22,7 +45,7 @@
 
 .soon h2, .changes h2 {
   margin-bottom: 42px;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 74px;
   font-weight: bold;
   font-style: normal;
