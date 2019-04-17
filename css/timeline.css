@@ -13,7 +13,7 @@
   background-color: #eeeeee;
   left: 0;
   margin-left: -1.5px;
-  margin-top: 110px;
+  margin-top: 80px;
 }
 
 .timeline > li {
@@ -85,7 +85,7 @@
   font-size: 1.4em;
   text-align: center;
   position: absolute;
-  top: 30px;
+  top: 4px;
   left: 0;
   margin-left: -12px;
   background-color: #fff;

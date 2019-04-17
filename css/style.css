@@ -68,6 +68,20 @@
   color: #9a9a9a;
 }
 
+.soon h4, .changes h4 {
+  margin-bottom: 30px;
+  margin-left: 60px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  color: #2c2c2c;
+}
+
 .soon h2 {
   margin-top: -10px;
   text-transform: uppercase;
