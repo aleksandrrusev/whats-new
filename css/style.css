@@ -1,0 +1,45 @@
+.head {
+  margin-bottom: 100px;
+  background: black;
+  height: 450px;
+}
+
+.soon {
+  margin-bottom: 63pxs;
+}
+
+.soon .title {
+  margin-bottom: 8px;
+  padding-bottom: 14px;
+  font-family: 'Rubik', sans-serif;
+  font-family: Rubik;
+  font-size: 27px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #505152;
+}
+
+.soon .title span {
+  padding: 5px 20px;
+  margin-left: 33px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #e6a300;
+  color: white;
+}
+
+.soon .content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 27px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #505152;
+}
+/*# sourceMappingURL=style.css.map */
