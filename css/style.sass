@@ -23,6 +23,7 @@
 
 .soon, .changes
   h2
+    margin-bottom: 42px
     font-family: Rubik
     font-size: 74px
     font-weight: bold
@@ -44,6 +45,9 @@
     color: #9a9a9a
 
 .soon
+  h2
+    margin-top: -10px
+    text-transform: uppercase
   .col-lg-8
     article
       margin-bottom: 63px
@@ -51,8 +55,7 @@
         margin-bottom: 8px
         padding-bottom: 14px
         font-family: 'Rubik', sans-serif
-        font-family: Rubik
-        font-size: 27px
+        font-size: 26px
         font-weight: bold
         font-style: normal
         font-stretch: normal
@@ -60,18 +63,21 @@
         letter-spacing: normal
         color: #505152
         span
-          padding: 5px 20px
+          padding: 6px 14px
           margin-left: 33px
           box-sizing: border-box
           border-radius: 10px
+          font-size: 18px
           color: white
           &.orange
             background-color: #e6a300
           &.blue
             background-color: #00bbe6
+          &.green
+            background: #00876b
       .content
         font-family: 'Open Sans', sans-serif
-        font-size: 27px
+        font-size: 18px
         font-weight: normal
         font-style: normal
         font-stretch: normal
@@ -113,3 +119,16 @@
         line-height: normal
         letter-spacing: normal
         color: #505152
+
+.card-columns
+  hr
+    margin-bottom: 1.7rem
+    width: 180px
+    border-color: #979797
+  .card
+    border: none
+    .card-body
+      .card-title
+        span
+          font-weight: normal
+          color: #9a9a9a

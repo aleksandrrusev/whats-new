@@ -21,6 +21,7 @@
 }
 
 .soon h2, .changes h2 {
+  margin-bottom: 42px;
   font-family: Rubik;
   font-size: 74px;
   font-weight: bold;
@@ -44,6 +45,11 @@
   color: #9a9a9a;
 }
 
+.soon h2 {
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
 .soon .col-lg-8 article {
   margin-bottom: 63px;
 }
@@ -52,8 +58,7 @@
   margin-bottom: 8px;
   padding-bottom: 14px;
   font-family: 'Rubik', sans-serif;
-  font-family: Rubik;
-  font-size: 27px;
+  font-size: 26px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -63,11 +68,12 @@
 }
 
 .soon .col-lg-8 article .title span {
-  padding: 5px 20px;
+  padding: 6px 14px;
   margin-left: 33px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 10px;
+  font-size: 18px;
   color: white;
 }
 
@@ -79,9 +85,13 @@
   background-color: #00bbe6;
 }
 
+.soon .col-lg-8 article .title span.green {
+  background: #00876b;
+}
+
 .soon .col-lg-8 article .content {
   font-family: 'Open Sans', sans-serif;
-  font-size: 27px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -129,5 +139,20 @@
   line-height: normal;
   letter-spacing: normal;
   color: #505152;
+}
+
+.card-columns hr {
+  margin-bottom: 1.7rem;
+  width: 180px;
+  border-color: #979797;
+}
+
+.card-columns .card {
+  border: none;
+}
+
+.card-columns .card .card-body .card-title span {
+  font-weight: normal;
+  color: #9a9a9a;
 }
 /*# sourceMappingURL=style.css.map */
