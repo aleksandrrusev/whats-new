@@ -47,7 +47,7 @@
   width: 100%;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
-  padding: 20px 80px 80px;
+  padding: 20px 30px;
   position: relative;
   -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.14);
           box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.14);
@@ -172,5 +172,9 @@
   column-count: 2;
   -webkit-column-gap: 3rem;
           column-gap: 3rem;
+}
+
+.card-text {
+  margin: 10px 0;
 }
 /*# sourceMappingURL=timeline.css.map */
