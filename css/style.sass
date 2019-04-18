@@ -122,6 +122,31 @@
         line-height: normal
         letter-spacing: normal
         color: #505152
+  .short-story
+    article
+      margin-bottom: 0
+      .content
+        margin-bottom: 20px
+  .full-story
+    margin-top: 20px
+  .story
+    .see-full-story
+      margin-top: 20px
+      font-family: 'Rubik', sans-serif
+      font-size: 20px
+      font-weight: normal
+      font-style: normal
+      font-stretch: normal
+      line-height: normal
+      letter-spacing: normal
+      color: #505152
+      border-bottom: 2px solid #505152
+      &:hover
+        text-decoration: none
+      &[aria-expanded=false]:after
+        content: 'Развернуть подробнее'
+      &[aria-expanded=true]:after
+        content: 'Свернуть подробнее'
 
 .changes
   .container
