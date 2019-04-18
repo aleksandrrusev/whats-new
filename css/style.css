@@ -223,6 +223,10 @@
   padding-right: 0 !important;
 }
 
+.developers .developer .bubble {
+  margin-right: -30px;
+}
+
 .developers .developer .bubble p.speech {
   position: relative;
   width: 70px;
@@ -275,6 +279,7 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+  text-align: center;
   color: #1f1f1f;
 }
 
@@ -286,19 +291,19 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #505152;
-}
-
-@media (min-width: 1200px) {
-  .developers .developer {
-    padding-right: 52px;
-  }
 }
 
 @media (min-width: 992px) {
   .developers .developer {
-    padding-right: 48px;
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .developers .developer {
+    padding-right: 74px;
   }
 }
 /*# sourceMappingURL=style.css.map */
