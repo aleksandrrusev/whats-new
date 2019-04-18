@@ -135,6 +135,10 @@
   background-color: #00bbe6;
 }
 
+.soon .col-lg-8 article .title .status-bar.purpule {
+  background-color: #a10fb3;
+}
+
 .soon .col-lg-8 article .title .status-bar.green {
   background: #00876b;
 }
@@ -342,6 +346,10 @@
 }
 
 .see-full-story.fas.fa-caret-square-down:hover {
+  text-decoration: none;
+}
+
+a.fa-caret-square-down:hover {
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
