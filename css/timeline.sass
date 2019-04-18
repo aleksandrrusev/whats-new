@@ -31,23 +31,21 @@
       clear: both
     >
       .timeline-panel
-        width: 100%
-        // float: left
-        border: 1px solid #d4d4d4
-        border-radius: 2px
+        width: calc(100% - 60px)
+        border-radius: 4px
         padding: 20px 30px
         position: relative
         box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.14)
-        &:before
-          position: absolute
-          top: 26px
-          right: -15px
-          display: inline-block
-          border-top: 15px solid transparent
-          border-left: 15px solid #ccc
-          border-right: 0 solid #ccc
-          border-bottom: 15px solid transparent
-          content: " "
+        // &:before
+        //   position: absolute
+        //   top: 26px
+        //   right: -15px
+        //   display: inline-block
+        //   border-top: 15px solid transparent
+        //   border-left: 15px solid #ccc
+        //   border-right: 0 solid #ccc
+        //   border-bottom: 15px solid transparent
+        //   content: " "
         &:after
           position: absolute
           top: 27px
@@ -88,6 +86,25 @@
         border-right-width: 14px
         left: -14px
         right: auto
+  .timeline-title
+    margin: 0 0 20px 60px
+    color: inherit
+
+  .timeline-subtitle
+    display: inline-block
+    width: 350px
+    font-family: 'Rubik', sans-serif
+    font-size: 26px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: normal
+    letter-spacing: normal
+    color: #505152
+  .timeline-emoji
+    display: inline-block
+    font-size: 76px
+    margin-right: 30px
 
 .timeline-badge
   &.primary
@@ -102,7 +119,7 @@
     background-color: #5bc0de !important
 
 .timeline-title
-  margin-top: 0
+  margin: 0 0 40px 60px
   color: inherit
 
 .timeline-subtitle

@@ -59,8 +59,6 @@
     letter-spacing: normal
     color: #9a9a9a
   h4
-    margin-bottom: 30px
-    margin-left: 60px
     font-family: 'Rubik', sans-serif
     font-size: 26px
     font-weight: bold
@@ -162,3 +160,73 @@
         span
           font-weight: normal
           color: #9a9a9a
+
+
+.developers
+  margin-top: -60px
+  margin-bottom: 40px
+  .developer
+    display: inline-block
+    padding-right: 52px
+    &:last-child
+      padding-right: 0 !important
+    .bubble
+      p.speech
+        position: relative
+        width: 70px
+        height: 32px
+        margin-left: 40px
+        margin-bottom: 24px
+        text-align: center
+        line-height: 24px
+        padding: 0 4px
+        background-color: #fff
+        border: 3px solid #627189
+        // border-radius: 10px
+        box-shadow: 2px 2px 4px #888
+        font-family: 'Rubik', sans-serif
+        font-size: 12px
+        font-weight: normal
+        font-style: normal
+        font-stretch: normal
+        // line-height: normal
+        letter-spacing: normal
+        // text-align: center
+        color: #505152
+        &:before
+          content: ' '
+          position: absolute
+          width: 0
+          height: 0
+          left: 7px
+          top: 26px
+          border: 10px solid
+          border-color: #627189 transparent transparent #627189
+        &:after
+          content: ' '
+          position: absolute
+          width: 0
+          height: 0
+          left: 10px
+          top: 26px
+          border: 6px solid
+          border-color: #fff transparent transparent #fff
+    .face
+      font-family: AppleColorEmoji
+      font-size: 52px
+      font-weight: normal
+      font-style: normal
+      font-stretch: normal
+      line-height: normal
+      letter-spacing: normal
+      color: #1f1f1f
+    .name
+      font-family: 'Rubik', sans-serif
+      font-size: 20px
+      font-weight: bold
+      font-style: normal
+      font-stretch: normal
+      line-height: normal
+      letter-spacing: normal
+      text-align: left
+      color: #505152
