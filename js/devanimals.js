@@ -8,17 +8,17 @@ var phrazes = [
   ];
 
 var people = [
-    "Саша",
-    "Стас",
-    "Макар",
-    "Саша",
-    "Рома",
-    "Андрей",
-    "Артём",
-    "Борис",
-    "Илья",
-    "Марья",
-    "Ира",
+    ["Саша","🦀"],
+    ["Стас","🐝"],
+    ["Макар","🦄"],
+    ["Саша","🐍"],
+    ["Рома","🐳"],
+    ["Андрей","🐟"],
+    ["Артём","🐲"],
+    ["Борис","🐯"],
+    ["Илья","🐻"],
+    ["Марья","🦊"],
+    ["Ира","🐹"],
 ]
 var now = new Date();
 var weekday = now.getDay();
@@ -57,7 +57,8 @@ for (i=0; i<5; i++) {
     }
     else output_phrazes[i] = phrazes[Math.floor(Math.random() * 5) + 1]; 
 
-    $("#dev_name_"+(i+1)).html(people_show[i]);
+    $("#dev_name_"+(i+1)).html(people_show[i][0]);
+    $("#dev_face_"+(i+1)).html(people_show[i][1]);
     $("#dev_phraze_"+(i+1)).html(output_phrazes[i]);
 }
 
