@@ -89,6 +89,17 @@
   .timeline-title
     margin: 0 0 20px 60px
     color: inherit
+    .last-updated
+      font-family: 'Rubik', sans-serif
+      font-size: 20px
+      font-weight: normal
+      font-style: normal
+      font-stretch: normal
+      line-height: normal
+      letter-spacing: normal
+      text-align: right
+      color: #767676
+
 
   .timeline-subtitle
     display: inline-block
@@ -153,3 +164,15 @@
 
 .card-text
   margin: 10px 0
+
+.soon
+  .timeline
+    &:before
+      background-color: unset
+      background-image: linear-gradient(#eeeeee 60%, rgba(255,255,255,0) 0%)
+      background-position: right
+      background-size: 3px 30px
+      background-repeat: repeat-y
+    .timeline-inverted
+      .timeline-badge
+        top: 10px

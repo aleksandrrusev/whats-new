@@ -3,7 +3,7 @@
   overflow: hidden;
   height: 460px;
   background-color: #3b4858;
-  background: url("../img/bg_001.png");
+  background: url("../img/bg_notext.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -23,12 +23,25 @@
   color: white;
 }
 
+.head .updates-text {
+  padding: 0 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 94px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
 .head .tb-logo {
   background: url("../img/tb-logo.png");
   background-size: cover;
   width: 242px;
   height: 48px;
-  margin-top: 40px;
+  margin: 60px 0px 20px 0px;
 }
 
 .head .round-img {

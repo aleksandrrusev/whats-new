@@ -19,6 +19,7 @@
     <!-- Custom js for this template -->
     
     <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet">
   </head>
   <body>
@@ -26,9 +27,11 @@
     <main role="main" class="container-fluid">
       <div class="row head">
         <div class="round-img"></div>
-        <div class="go-back">&larr;&nbsp;  <a href="https://teachbase.ru">Вернуться на главную</a></div>
-        <div class="updates-text">ОБНОВЛЕНИЯ</div>
-        <div class="tb-logo"></div>
+        <div class="position-absolute go-back">&larr;&nbsp;  <a href="https://teachbase.ru">Вернуться на главную</a></div>
+        <div class="mx-auto">
+          <div class="tb-logo mx-auto"></div>
+          <div class="updates-text">ОБНОВЛЕНИЯ</div>
+        </div>
       </div>
 
       <div class="container">
@@ -41,12 +44,11 @@
             
           </div>
         </div> -->
-
         <div class="row soon">
           <div class="container">
             <ul class="timeline">
               <li class="timeline-inverted">
-                <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-badge"><i class="fas fa-arrow-alt-circle-right"></i></div>
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="timeline-title">
@@ -119,16 +121,21 @@
                     </div>
                   </div>
                 </div>
-                <div class="timeline-panel">
+                <!-- <div class="timeline-panel">
                   <div class="timeline-body"></div>
-                </div>
+                </div> -->
               </li>
             </ul>
+          </div>
+        </div>
 
+        <div class="row changes">
+          <div class="container">
             <ul class="timeline">
               <li class="timeline-inverted">
-                <div class="timeline-title">
+                <div class="timeline-title d-flex justify-content-between">
                   <h4>Апрель</h4>
+                  <div class="last-updated">последнее обновление 18 апреля</div>
                 </div>
                 <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
                 <div class="timeline-panel">
@@ -169,8 +176,9 @@
 
             <ul class="timeline">
               <li class="timeline-inverted">
-                <div class="timeline-title">
+                <div class="timeline-title d-flex justify-content-between">
                   <h4>март</h4>
+                  <div class="last-updated">последнее обновление 31 марта</div>
                 </div>
                 <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
                 <div class="timeline-panel">
@@ -324,6 +332,7 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="js/popper.min.js"></script>
     <script src="js/dist/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/4724f1e742.js"></script>
 
   </body>
 </html>
