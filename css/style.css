@@ -340,4 +340,8 @@
     padding-right: 74px;
   }
 }
+
+.see-full-story.fas.fa-caret-square-down:hover {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
