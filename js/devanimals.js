@@ -42,8 +42,6 @@ if (dayhour>8 & dayhour<20) {
 var shuffled = people.sort(function(){return .5 - Math.random()});
 var people_show=shuffled.slice(0,5);
 
-daystate="workday";
-timestate="worktime";
 var output_phrazes = new Array(5);
 for (i=0; i<5; i++) {
     if (timestate=="sleeptime" & Math.random()>=0.2)
