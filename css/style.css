@@ -99,11 +99,11 @@
 }
 
 .soon .col-lg-8 article {
-  margin-bottom: 63px;
+  margin-bottom: 40px;
 }
 
 .soon .col-lg-8 article .title {
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   padding-bottom: 14px;
   font-family: 'Rubik', sans-serif;
   font-size: 26px;
@@ -229,17 +229,17 @@
 
 .developers .developer .bubble p.speech {
   position: relative;
-  width: 70px;
+  width: 80px;
   height: 32px;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-bottom: 24px;
   text-align: center;
   line-height: 24px;
   padding: 0 4px;
   background-color: #fff;
-  border: 3px solid #627189;
-  -webkit-box-shadow: 2px 2px 4px #888;
-          box-shadow: 2px 2px 4px #888;
+  border: 3px solid #919caf;
+  -webkit-box-shadow: 0px 0px 5px #aaa;
+          box-shadow: 0px 0px 5px #aaa;
   font-family: 'Rubik', sans-serif;
   font-size: 12px;
   font-weight: normal;
@@ -257,7 +257,7 @@
   left: 7px;
   top: 26px;
   border: 10px solid;
-  border-color: #627189 transparent transparent #627189;
+  border-color: #919caf transparent transparent #919caf;
 }
 
 .developers .developer .bubble p.speech:after {
