@@ -100,14 +100,14 @@
 }
 
 .soon .col-lg-8 article {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .soon .col-lg-8 article .title {
   margin-bottom: 0px;
-  padding-bottom: 14px;
+  padding-bottom: 10px;
   font-family: 'Rubik', sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -118,11 +118,11 @@
 
 .soon .col-lg-8 article .title .status-bar {
   padding: 6px 14px;
-  margin-left: 25px;
+  margin-left: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   white-space: nowrap;
 }
@@ -141,7 +141,7 @@
 
 .soon .col-lg-8 article .content {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -163,16 +163,16 @@
 }
 
 .soon .story .see-full-story {
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: 'Rubik', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #505152;
-  border-bottom: 2px solid #505152;
+  border-bottom: 2px dashed #505152;
 }
 
 .soon .story .see-full-story:hover {
