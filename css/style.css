@@ -191,16 +191,12 @@
   margin-bottom: 43px;
 }
 
-.changes .container h2 {
-  text-transform: uppercase;
-}
-
-.changes .col-lg-6 article .title {
+.changes .container .timeline .timeline-panel .card-title {
   margin-bottom: 8px;
   padding-bottom: 14px;
   font-family: 'Rubik', sans-serif;
   font-family: Rubik;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -209,7 +205,7 @@
   color: #505152;
 }
 
-.changes .col-lg-6 article .post-img {
+.changes .container .timeline .timeline-panel .post-img {
   width: 100%;
   height: 100%;
   max-height: 210px;
@@ -217,9 +213,9 @@
   background: #d8d8d8;
 }
 
-.changes .col-lg-6 article .content {
+.changes .container .timeline .timeline-panel .card-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 27px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
