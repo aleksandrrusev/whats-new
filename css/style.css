@@ -41,7 +41,7 @@
   background-size: cover;
   width: 242px;
   height: 48px;
-  margin: 60px 0px 20px 0px;
+  margin: 100px 0px 20px 0px;
 }
 
 .head .round-img {
@@ -209,11 +209,14 @@
 .developers {
   margin-top: -60px;
   margin-bottom: 40px;
+  height: 150px;
+  overflow: hidden;
 }
 
 .developers .developer {
   display: inline-block;
   padding-right: 52px;
+  padding-bottom: 20px;
 }
 
 .developers .developer:last-child {
@@ -285,5 +288,17 @@
   letter-spacing: normal;
   text-align: left;
   color: #505152;
+}
+
+@media (min-width: 1200px) {
+  .developers .developer {
+    padding-right: 52px;
+  }
+}
+
+@media (min-width: 992px) {
+  .developers .developer {
+    padding-right: 48px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
