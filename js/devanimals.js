@@ -1,10 +1,10 @@
 var phrazes = [
-    "z-z-z",
-    "трудится",
-    "отдыхает",
-    "учится",
-    "ест",
-    "гуляет"
+    "Z-z-z",
+    "Трудится",
+    "Отдыхает",
+    "Учится",
+    "Ест",
+    "Гуляет"
   ];
 
 var people = [
@@ -56,6 +56,9 @@ for (i=0; i<5; i++) {
         output_phrazes[i] = phrazes[1];
     }
     else output_phrazes[i] = phrazes[Math.floor(Math.random() * 5) + 1]; 
+
+    $("#dev_name_"+(i+1)).html(people_show[i]);
+    $("#dev_phraze_"+(i+1)).html(output_phrazes[i]);
 }
 
 console.log(output_phrazes);
